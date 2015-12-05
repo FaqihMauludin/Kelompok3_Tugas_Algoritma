@@ -1,7 +1,31 @@
 # Kelompok3_Tugas_Algoritma
 
 
-Kelompok terdiri dari 4 orang. Masing-masing mengerjakan satu function atau procedure. Setiap orang harus melihat Clue untuk pengerjaan dan dikerjakan dalam bentuk PASCAL bukan Algoritma. Sebelum mengerjakan clue, copy script dasar dari program disini : Script_Dasar.pas
+Kelompok terdiri dari 4 orang. Masing-masing mengerjakan satu function atau procedure. Setiap orang harus melihat Clue untuk pengerjaan dan dikerjakan dalam bentuk PASCAL bukan Algoritma. Sebelum mengerjakan clue, copy script dasar dibawah ini :
+
+program index_nilai;
+{I.S. : }
+{F.S. : }
+uses Crt;
+
+const
+    MaksM = 50; // maksimal baris
+    MaksN = 8; // maksimal kolom nilai mata kuliah
+
+type
+    Larik1 = Array [1..MaksN] of String;
+    Larik2 = Array [1..MaksM] of String;
+
+var
+    M, N : Integer;
+
+// TARUH CLUE DARI PRODECURE FUNCTION MASING-MASING DISINI
+
+// algoritma utama
+begin
+    panggil_nama_procedure_atau_fungsi_disini();
+end.
+
 
 Setelah itu baru kerjakan clue didalam script tersebut dan tes programnya (compile). Sesudah mengerjakan clue-nya, tolong pastekan hasil pengerjaannya di Pastebin.com dengan settingan-nya diatur! Terakhir berikan link hasil generate copasinnya ke LINE saya. Setelah selesai semua, script tadi akan digabungkan dan akan dipost disini.
 
@@ -28,8 +52,11 @@ end;
 Alur Program
 
 Pertama, program akan meminta data tentang berapa jumlah baris (M) dan Kolom (N) untuk nilai matkul yang dibutuhkan. 
+
 Kedua, program akan menampilkan baris pertama tabel untuk di isi oleh user dengan nama mata kuliah. 
+
 Ketiga, dibaris kedua user memasukkan kolom NIM dan nilai mata kuliah di masing-masing kolom; setiap nilai mata kuliah akan di konversikan ke INDEX (A-E) ketika tombol enter ditekan. 
+
 Keempat, setelah user memasukkan semua data disetiap baris; user akan diberi opsi apakah ingin mengisi Kamus Keterangan yang berfungsi sebagai penjelas makna dari kolom judul mata kuliah - ini dikarenakan kolom mata kuliah Maks. 5 Karakter sehingga user harus menyingkat nama mata kuliah yang menyebabkan ketidakjelasan maksud kolom.
 
 Clue Tambahan : maksimal data baris yang boleh di inputkan adalah 50 (MaksM) dan maksimal kolom adalah 8 (MaksN)
